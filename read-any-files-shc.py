@@ -6,7 +6,7 @@
 # Shellcode base length (w/o path): 52 bytes
 # Shellcode length for /etc/passwd: 67 bytes
 
-path = "/etc/passwd"
+path = "flag.txt"
 length = len(path)
 while (length % 4 != 0):
     length += 1
